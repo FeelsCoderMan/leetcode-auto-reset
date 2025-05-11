@@ -1,0 +1,21 @@
+{
+	"manifest_version": 3,
+	"name": "LeetCode Auto Reset",
+	"version": "1.0",
+	"description": "Automatically triggers the reset button on LeetCode when enabled.",
+	"permissions": [
+		"activeTab",
+		"scripting",
+		"storage"
+	],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [{
+		"matches": ["https://leetcode.com/*"],
+		"js": ["content.js"]
+	}]
+}
