@@ -25,8 +25,10 @@ git clone https://github.com/FeelsCoderMan/leetcode-auto-reset.git
 
 ### Demo
 
-Extension UI:
+Extension UI
+
 ![image](https://github.com/user-attachments/assets/035a40e5-8ac1-4b94-9ff1-7aee9f48e5e8)
 
-Recording:
+Recording
+
 https://github.com/user-attachments/assets/89a4785c-48dc-4774-bde5-a9099481c316
